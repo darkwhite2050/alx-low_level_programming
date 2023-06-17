@@ -5,8 +5,6 @@
  *
  * Description: print all alphabet letters
  *
- * followed by a new line.
- *
  * Return: Always 0 (Success)
  */
 
