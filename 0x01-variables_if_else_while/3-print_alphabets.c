@@ -10,22 +10,19 @@
 
 int main(void)
 {
-	char ch = 'a';
-	char CH = 'A';
+	int n = 97;
+	int m = 65;
 
-		/*prints a - z*/
-		while (ch <= 'z')
-		{
-			putchar(ch);
-			ch++;
-		}
-
-		/*print A - Z*/
-		while (ch <= 'Z')
-		{
-			putchar(CH);
-			CH++;
-		}
-		putchar('\n');
-
+	while (n <= 122)
+	{
+		putchar(n);
+		n++;
+	}
+	while (m <= 90)
+	{
+		putchar(m);
+		m++;
+	}
+	putchar('\n');
 		return (0);
+}
