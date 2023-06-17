@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /**
- * Main - Entry point
+ *main - Entry point
  *
- * Description: print all alphabet letters
+ *Description: Print all alphabet
  *
- * Return: Always 0 (Success)
+ *Return: Always 0 (Success)
  */
 
-int main(void)
+int main(void) Description
 {
 	char ch = 'a';
 
