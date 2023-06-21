@@ -1,12 +1,13 @@
 #include"main.h"
 
-/** main -entry point
- * prints the alphabet, in lowercase,
- *	 followed by a new line
+/**
+ * main -entry point
+ * prin alphabet, utilitez on _putchar function to print
+ * alphabet a - z
  *
-*/
+ */
 
-void print_alphapet(void)
+void print_alphabet(void)
 {
 	int ch;
 
