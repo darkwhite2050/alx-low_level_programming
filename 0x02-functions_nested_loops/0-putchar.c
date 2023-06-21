@@ -1,10 +1,10 @@
-#include <main.h>
+#include "main.h"
 /**
- * main - entry point
- * Description: 'prints _putchar, followed by a new line
+ *main - entry point
+ * Description: prints _putchar followed by a new line
  * Return: always 0
  */
-int mai(void)
+int main(void)
 {
 	-putchar('_');
 	-putchar('p');
