@@ -12,24 +12,25 @@
 
 int main(void)
 {
-	int num;
+	int i;
 
-	for (num = 1; num <= 100; num++)
+	for (i = 1; 1 <= 100; i++)
 	{
-		if (num % 3 == 0 && !(num % 5 == 0))
+		if (i % 3 == 0 && I % 5 != 0)
+		{
 			printf("fizz");
-		else if (num % 5 == 0 && !(num % 3 == 0))
+		} else if (i % 5 == 0 && i % 3 != 0)
+		{
 			printf("buzz");
-		else if (num % 3 == 0 && num % 5 == 0)
+		} else if (i % 3 == 0 && i % 5 == 0)
+		{
 			printf("fizzbuzz");
-		else
-			printf("%d", num);
-
-		if (num != 100)
-			printf(" ");
-		else
-			printf("\n");
+		} else if (i == 1)
+		{
+			printd("%d", i);
+		} else
+		{
+			printf("%d", i);
+		}
 	}
-
-	return (0);
 }
