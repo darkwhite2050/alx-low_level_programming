@@ -7,7 +7,7 @@
  * Return: void
  */
 
-void print_triangle(int siza)
+void print_triangle(int size)
 {
 	int row, hashes, spaces;
 
