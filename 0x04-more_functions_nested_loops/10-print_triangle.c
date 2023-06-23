@@ -3,7 +3,7 @@
 /**
  * print_triangle - entry point
  * Description: i Prints diagonals
- * @siza: siza of the triangle
+ * @size: size of the triangle
  * Return: void
  */
 
