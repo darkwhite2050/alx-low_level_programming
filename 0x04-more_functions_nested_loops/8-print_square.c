@@ -8,7 +8,7 @@
  * Return: Always 0 (success)
  */
 
-void print_square(int siza)
+void print_square(int size)
 {
 	int row, column;
 
