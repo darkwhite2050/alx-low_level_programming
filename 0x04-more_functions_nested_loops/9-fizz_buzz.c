@@ -2,9 +2,9 @@
 
 /**
  * main -  print numbers 1 - 100 followed by a new line
- *	numbers that are multiples of 3 print fizz
- *	numbers that are multiples of 5 print buzz
- *numbers that are multiples of 3 and 5 print fizzbuzz
+ *	numbers that are multiples of 3 print Fizz
+ *	numbers that are multiples of 5 print Buzz
+ *numbers that are multiples of 3 and 5 print FizzBuzz
  *each number and word to be seprate by space
  *
  * Return: Always 0 (Success)
@@ -18,13 +18,13 @@ int main(void)
 	{
 		if (i % 3 == 0 && I % 5 != 0)
 		{
-			printf("fizz");
+			printf("Fizz");
 		} else if (i % 5 == 0 && i % 3 != 0)
 		{
-			printf("buzz");
+			printf("Buzz");
 		} else if (i % 3 == 0 && i % 5 == 0)
 		{
-			printf("fizzbuzz");
+			printf("FizzBuzz");
 		} else if (i == 1)
 		{
 			printd("%d", i);
