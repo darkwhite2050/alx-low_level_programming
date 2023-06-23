@@ -21,6 +21,6 @@ void print_diagonal(int n)
 				_putchar(' ');
 			_putchar(92); /*is equal to '/' char*/
 			_putchar('\n');
-			}
+		}
 	}
 }
